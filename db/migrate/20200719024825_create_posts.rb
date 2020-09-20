@@ -3,8 +3,6 @@ class CreatePosts < ActiveRecord::Migration[6.0]
     create_table :posts do |t|
       t.text :content
       t.boolean :checked
-      t.string :nickname
-      t.string :number
       t.timestamps
     end
   end
